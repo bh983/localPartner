@@ -12,6 +12,9 @@
 4.在kazumi上妥当配置规则后，搜索对应的番剧并选择软件对应的规则源播放，Kazumi会连接到localPartner的服务并直接播放本地视频，基本实现秒加载。
 
 ## 使用方法
+
+[B站图文教程]([https://www.google.com](https://www.bilibili.com/opus/1235382467239608324))
+
 1.指定一个或多个搜索目录，选择联网检索源，并点击开始扫描。软件会检索出目录下的视频，根据文件名读取番剧名，并尝试以此通过在线检索源获取番剧标准名称。检索源选择无则会直接跳过在线检索，使用文件名读取出的番剧名。
 
 2.指定一个空闲的端口，点击启动服务。
@@ -23,7 +26,7 @@
 kazumi://eyJhcGkiOiI4IiwidHlwZSI6ImFuaW1lIiwibmFtZSI6ImxvY2FsUGFydG5lciIsInZlcnNpb24iOiIxIiwibXVsaVNvdXJjZXMiOnRydWUsInVzZVdlYnZpZXciOnRydWUsInVzZU5hdGl2ZVBsYXllciI6dHJ1ZSwidXNlUG9zdCI6ZmFsc2UsInVzZUxlZ2FjeVBhcnNlciI6ZmFsc2UsImFkQmxvY2tlciI6ZmFsc2UsInVzZXJBZ2VudCI6IiIsImJhc2VVUkwiOiJodHRwOi8vbG9jYWxob3N0OjgwODAiLCJzZWFyY2hVUkwiOiIiLCJzZWFyY2hMaXN0IjoiIiwic2VhcmNoTmFtZSI6IiIsInNlYXJjaFJlc3VsdCI6IiIsImNoYXB0ZXJSb2FkcyI6IiIsImNoYXB0ZXJSZXN1bHQiOiIiLCJyZWZlcmVyIjoiIiwic2VhcmNoTW9kZSI6ImFwaSIsImNoYXB0ZXJNb2RlIjoiYXBpIiwic2VhcmNoQXBpQ29uZmlnIjp7InJlcXVlc3QiOnsibWV0aG9kIjoiR0VUIiwidXJsIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2FwaS9zZWFyY2giLCJxdWVyeSI6eyJxIjoiQGtleXdvcmQifX0sImxpc3RQYXRoIjoiJC5kYXRhWypdIiwibmFtZVBhdGgiOiIkLm5hbWUiLCJzb3VyY2VQYXRoIjoiJC5pZCJ9LCJjaGFwdGVyQXBpQ29uZmlnIjp7InJlcXVlc3QiOnsibWV0aG9kIjoiR0VUIiwidXJsIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2FwaS9kZXRhaWwvQHNvdXJjZSJ9LCJmb3JtYXQiOiJuZXN0ZWQiLCJyb2Fkc1BhdGgiOiIkLmRhdGEucGxheVNvdXJjZXNbKl0iLCJyb2FkTmFtZVBhdGgiOiIkLm5hbWUiLCJlcGlzb2Rlc1BhdGgiOiIkLmVwaXNvZGVzWypdIiwiZXBpc29kZU5hbWVQYXRoIjoiJC5uYW1lIiwiZXBpc29kZVVybFBhdGgiOiIkLnVybCJ9LCJhbnRpQ3Jhd2xlckNvbmZpZyI6eyJlbmFibGVkIjpmYWxzZSwiY2FwdGNoYVR5cGUiOjEsImNhcHRjaGFJbWFnZSI6IiIsImNhcHRjaGFJbnB1dCI6IiIsImNhcHRjaGFCdXR0b24iOiIiLCJjYXB0Y2hhRGV0ZWN0VHlwZSI6MSwiY2FwdGNoYURldGVjdFZhbHVlIjoiIiwiY2FwdGNoYVNjcmlwdCI6IiJ9fQ==
 ``` 
 
-4.在kazumi搜索要看番剧，找到第3步新建的源，点击播放即可。软件会根据读取的视频文件确定集数和集号并对应提供给kazumi，不受在线识别影响。
+4.在kazumi搜索要看的番剧，找到第3步新建的源，点击播放即可。软件会根据读取的视频文件确定集数和集号并对应提供给kazumi，不受在线识别影响。
 
 ## FAQ
 Q：番剧名识别/在线检索出错？
@@ -61,7 +64,7 @@ A：支持的视频格式：.mkv/.mp4/.avi/.flv/.mov/.webm/.ts/.m4v。另外，�
 
 本程序采用AI编程+人工指导修缮的方式完成。
 ## 致谢和声明
-本程序的开发离不开优秀项目与社区 API ：
+本程序的开发离不开优秀项目、API等：
 * **[Kazumi](https://github.com/Predidit/kazumi)**：优秀的番剧播放器。
 * **[Anitopy](https://github.com/igorcmoura/anitopy)**：高效的动画文件名解析库。
 * **[Bangumi.tv](https://bgm.tv/)** & **[萌娘百科](https://zh.moegirl.org.cn/)**：提供动画条目与元数据检索服务。
