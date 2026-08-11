@@ -63,8 +63,8 @@ A：软件会搜索指定目录当层和下一层的文件，不会深入到第�
 ## 致谢和声明
 本程序的开发离不开优秀项目与社区 API ：
 * **[Kazumi](https://github.com/Predidit/kazumi)**：优秀的番剧播放器。
-* **Anitopy**：高效的动画文件名解析库。
-* **[Bangumi API](https://bgm.tv/)** & **[萌娘百科 API](https://zh.moegirl.org.cn/)**：提供动画条目与元数据检索服务。
+* **[Anitopy](https://github.com/igorcmoura/anitopy)**：高效的动画文件名解析库。
+* **[Bangumi.tv](https://bgm.tv/)** & **[萌娘百科](https://zh.moegirl.org.cn/)**：提供动画条目与元数据检索服务。
 * **Gemini 3.6 Flash**：写代码还真不错，基本一遍跑通，就是上下文太短了点。
 
 另外，
